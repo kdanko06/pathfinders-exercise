@@ -1,0 +1,13 @@
+[
+    {"category": "toDo", "name": "Task 1", "body": "i need to do something 1!"},
+    {"category": "inProgres", "name": "Task 2", "body": "i need to do something 2!"},
+    {"category": "inReview", "name": "Task 3", "body": "i need to do something 3!"},
+    {"category": "toDo", "name": "Task 4", "body": "i need to do something 4!"},
+    {"category": "inProgres", "name": "Task 5", "body": "i need to do something 5!"},
+    {"category": "done", "name": "Task 6", "body": "i need to do something 6!"},
+    {"category": "toDo", "name": "Task 7", "body": "i need to do something 7!"},
+    {"category": "toDo", "name": "Task 8", "body": "i need to do something 8!"},
+    {"category": "inReview", "name": "Task 9", "body": "i need to do something 9!"},
+    {"category": "done", "name": "Task 10", "body": "i need to do something 10!"},
+    {"category": "toDo", "name": "Task 11", "body": "i need to do something 11!"}
+]
