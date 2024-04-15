@@ -62,8 +62,15 @@ nav a{
   font-size: 20px;
 }
 
+.taskboard__col{
+  border :1px solid gray;
+  -ms-flex-align: end;
+  padding: 10px;
+}
+
 .taskboard__task {
     border: 1px solid gray;
     border-radius: 10px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
 }
