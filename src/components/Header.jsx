@@ -1,18 +1,18 @@
 import React from "react";
 
-function Header() {
+function Header(onSetPage) {
     return (
         <div>
-            <nav className="nav">
-                <div className="nav-left">
+            <nav className="flex">
+                <div className="flex-row">
                     <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 20 }}>
                         <div>
-                            <a className="taskboard" href="/#">
+                            <a className="taskboard" onClick={() => onSetPage('taskBoard')}>
                                 Task Board
                             </a>
                         </div>
                         <div>
-                            <a className="addtast" href="https://clickup.com">
+                            <a className="addtask" onClick={() => onSetPage("addTask")}>
                                 Add task
                             </a>
                         </div>
@@ -25,7 +25,7 @@ function Header() {
                     
                     
                 </div>
-                <div className="nav-right">
+                <div className="flex-row-reverse">
                         <a href="https://www.google.com"> Just google </a>
                 </div>
             </nav>
